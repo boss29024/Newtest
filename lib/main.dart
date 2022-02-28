@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_newtest/widgets/footer.dart';
 import 'package:flutter_newtest/widgets/logo.dart';
 
 void main() {
@@ -104,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Footer()
           ],
         ),
       ),
