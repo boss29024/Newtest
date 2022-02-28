@@ -7,10 +7,17 @@ class Footer extends StatefulWidget {
   State<Footer> createState() => _FooterState();
 }
 
+void _changeCompanyName() {}
+
 class _FooterState extends State<Footer> {
   String companyName = 'CCT';
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('$companyName'));
+    return Column(
+      children: [
+        Text('$companyName'),
+        RaisedButton(onPressed: _changeCompanyName)
+      ],
+    );
   }
 }
