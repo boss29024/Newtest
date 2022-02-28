@@ -5,8 +5,6 @@ class Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Logo', style: TextStyle(fontSize: 30),),
-    );
+    return FlutterLogo(size: 40,);
   }
 }
