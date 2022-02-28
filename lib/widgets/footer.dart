@@ -8,7 +8,7 @@ class Footer extends StatefulWidget {
 }
 
 class _FooterState extends State<Footer> {
-  String companyName = '';
+  String companyName = 'CCT';
   @override
   Widget build(BuildContext context) {
     return Container(child: Text('$companyName'));
