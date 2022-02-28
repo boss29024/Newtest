@@ -6,7 +6,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Logo'),
+      child: Text('Logo', style: TextStyle(fontSize: 30),),
     );
   }
 }
