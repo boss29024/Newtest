@@ -16,7 +16,10 @@ class _FooterState extends State<Footer> {
     return Column(
       children: [
         Text('$companyName'),
-        RaisedButton(onPressed: _changeCompanyName)
+        RaisedButton(
+          onPressed: _changeCompanyName,
+          child: Text('Click Me!!'),
+        )
       ],
     );
   }
