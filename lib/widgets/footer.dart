@@ -15,6 +15,13 @@ class _FooterState extends State<Footer> {
   }
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    print('init footer');
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [
