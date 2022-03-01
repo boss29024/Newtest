@@ -11,7 +11,9 @@ class _FooterState extends State<Footer> {
   String companyName = 'CCT';
 
   void _changeCompanyName() {
-    setState(() {companyName = 'Flutter';});
+    setState(() {
+      companyName = 'Flutter';
+    });
   }
 
   @override
@@ -25,7 +27,10 @@ class _FooterState extends State<Footer> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('$companyName'),
+        Text(
+          '$companyName',
+          style: Theme.of(context).textTheme.headline4,
+        ),
         RaisedButton(
           onPressed: _changeCompanyName,
           child: Text('Click Me!!'),
