@@ -16,8 +16,10 @@ class _AboutPageState extends State<AboutPage> {
       ),
       body: Center(
         child: Column(
-          children: const [
-            Text('New Test'),
+          children: [
+            const Text('New Test'),
+            ElevatedButton(onPressed: () {},
+            child: const Text('Enabled'),)
           ],
         ),
       ),
