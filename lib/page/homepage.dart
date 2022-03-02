@@ -21,7 +21,13 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Text('New test'),],
+          children: [
+            const Text('New test'),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Enabled'),
+            )
+          ],
         ),
       ),
     );
