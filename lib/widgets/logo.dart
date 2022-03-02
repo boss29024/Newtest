@@ -7,7 +7,7 @@ class Logo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Image.asset(
       'assets/images/mango.png',
-      height: 50,
+      height: 40,
       fit: BoxFit.cover,
     );
   }
