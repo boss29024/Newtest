@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Text('data'),],
+          children: const [Text('New test'),],
         ),
       ),
     );
