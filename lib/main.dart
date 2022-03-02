@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_newtest/page/AboutPage.dart';
+import 'package:flutter_newtest/page/ContactPage.dart';
 import 'package:flutter_newtest/page/HomePage.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomePage(),
         '/about': (context) => const AboutPage(),
+        '/contact': (context) => const ContactPage(),
       },
       debugShowCheckedModeBanner: false,
     );
