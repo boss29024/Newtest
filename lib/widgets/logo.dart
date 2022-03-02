@@ -5,6 +5,10 @@ class Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlutterLogo(size: 40,);
+    return Image.asset(
+      'assets/images/mango.png',
+      height: 50,
+      fit: BoxFit.cover,
+    );
   }
 }
