@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_newtest/page/AboutPage.dart';
-import 'package:flutter_newtest/page/ContactPage.dart';
-import 'package:flutter_newtest/page/HomePage.dart';
+import 'package:flutter_newtest/stack/HomeStack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,9 +23,7 @@ class MyApp extends StatelessWidget {
       //home: const HomePage(),
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomePage(),
-        '/about': (context) => const AboutPage(),
-        '/contact': (context) => const ContactPage(),
+        '/': (context) => const HomeStack(),
       },
       debugShowCheckedModeBanner: false,
     );
