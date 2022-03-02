@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_newtest/widgets/logo.dart';
-import 'package:flutter_newtest/widgets/footer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -22,7 +21,6 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[Footer()],
         ),
       ),
     );
