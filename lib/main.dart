@@ -50,13 +50,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Logo(),
+        title: const Logo(),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Logo(),
             const Text(
               'You have pushed the button this many times:',
             ),
