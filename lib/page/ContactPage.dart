@@ -10,6 +10,15 @@ class ContactPage extends StatefulWidget {
 class _ContactPageState extends State<ContactPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('เกี่ยวกับเรา'),
+      ),
+      body: Center(
+        child: Column(
+          children: const [Text('New Test')],
+        ),
+      ),
+    );
   }
 }
