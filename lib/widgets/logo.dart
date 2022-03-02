@@ -5,6 +5,7 @@ class Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('object');
     return Image.asset(
       'assets/images/mango.png',
       height: 40,
